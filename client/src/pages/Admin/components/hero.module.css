@@ -1,0 +1,4 @@
+.hero { position: relative; display: flex; align-items: center; min-height: 118px; padding: 22px 32px; overflow: hidden; background: linear-gradient(110deg, #e4f2d9, #fff8ca); border: 1px solid #d4e7d0; border-radius: 10px; }
+.icon { display: grid; place-items: center; flex: 0 0 auto; width: 54px; height: 54px; margin-right: 18px; color: white; border-radius: 50%; background: #087044; font-size: 25px; }
+.hero h2 { font-size: 26px; margin-bottom: 5px; }.hero p { margin-bottom: 0; color: #5a7667; font-size: 12px; }.cross { position: absolute; right: 9%; color: #ae8d25; font-size: 72px; opacity: .22; transform: rotate(-9deg); }
+@media (max-width: 600px) { .hero { padding: 17px; }.hero h2 { font-size: 20px; } }

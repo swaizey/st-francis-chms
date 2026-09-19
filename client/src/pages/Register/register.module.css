@@ -1,0 +1,2 @@
+.page { min-height: 100vh; color: #14563b; background: #f7faf2; }.content { display: grid; grid-template-columns: minmax(0, 1fr) 270px; gap: 16px; width: min(1200px, 95%); margin: 16px auto; }.formColumn { min-width: 0; }.sidebar { min-width: 0; }
+@media (max-width: 800px) { .content { grid-template-columns: 1fr; width: 94%; }.sidebar { order: 2; } }

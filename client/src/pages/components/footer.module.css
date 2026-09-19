@@ -1,0 +1,2 @@
+.footer { display: flex; justify-content: space-between; gap: 16px; padding: 17px max(4%, calc((100% - 1200px) / 2)); color: #e4f0d8; background: #045331; font-size: 10px; }.footer svg { color: #f3cf3e; }.footer span:last-child { color: #f2dc74; font-style: italic; }
+@media (max-width: 600px) { .footer { flex-direction: column; align-items: center; gap: 7px; padding: 16px 10px; font-size: 9px; text-align: center; } }
